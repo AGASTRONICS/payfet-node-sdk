@@ -1,0 +1,30 @@
+{
+  "name": "payfet",
+  "version": "1.0.1",
+  "description": "Payfet Financial SDK",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AGASTRONICS/payfet-node-sdk.git"
+  },
+  "keywords": [
+    "payfet",
+    "payment",
+    "fintech"
+  ],
+  "author": "agastronics",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AGASTRONICS/payfet-node-sdk/issues"
+  },
+  "homepage": "https://github.com/AGASTRONICS/payfet-node-sdk#readme",
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
+}
